@@ -1,0 +1,56 @@
+[
+  {
+    "id": "SRS_BSW_00344",
+    "content": "BSW Modules shall support link-time configuration",
+    "baseRequirements": [
+      "SRS_BSW_00342"
+    ],
+    "referencedRequirements": [],
+    "comments": [
+      "Allow configurable functionality of modules that are deployed as object code. Usually those modules are drivers."
+    ]
+  },
+  {
+    "id": "SRS_BSW_00404",
+    "content": "BSW Modules shall support post-build configuration",
+    "baseRequirements": [
+      "SRS_BSW_00342"
+    ],
+    "referencedRequirements": [],
+    "comments": [
+      "Change ECU configuration after ECU production without an update of the whole application."
+    ]
+  },
+  {
+    "id": "3",
+    "content": "新需求内容",
+    "baseRequirements": [
+      "基础需求内容",
+      "asf"
+    ],
+    "referencedRequirements": [
+      "引用需求内容",
+      "asdf"
+    ],
+    "comments": [
+      "备注内容",
+      "asdf"
+    ]
+  },
+  {
+    "id": "4",
+    "content": "新需求内容",
+    "baseRequirements": [
+      "基础需求内容",
+      "asdfasdfasdf"
+    ],
+    "referencedRequirements": [
+      "引用需求内容",
+      "asfdasdfa"
+    ],
+    "comments": [
+      "备注内容asdfasfdasdfas发射点发啊手动阀手动阀阿斯蒂芬啊发士大夫啊发射点发射点发射点发射点发生啊手动阀手动阀手动阀撒旦顶顶顶顶顶顶顶按时地方烦烦烦烦烦烦烦烦烦烦烦烦烦烦烦法撒旦水水水水水水水水水水水水水水水水asfdafsdfasasfddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "asdfas"
+    ]
+  }
+]

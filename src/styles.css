@@ -1,0 +1,68 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    white-space: pre-wrap;       /* 保留空白符序列，当内容超过容器宽度时自动换行 */
+    word-wrap: break-word;       /* 允许长单词或URL地址换行到下一行 */
+    overflow: hidden;           /* 内容超出宽度时隐藏 */
+    text-overflow: ellipsis;    /* 内容超出宽度时显示省略号 */
+}
+
+th {
+    background-color: #3ba13e;
+    position: sticky;
+    top: 0;
+
+}
+
+.id_container {
+    width: 150px;
+}
+
+.content_container {
+
+    min-width: 400px;
+
+}
+
+.link_container {
+    min-width: 250px;
+}
+
+.comments_container {
+    width: 25%;
+    white-space: pre-wrap;       /* 保留空白符序列，当内容超过容器宽度时自动换行 */
+    word-wrap: break-word;       /* 允许长单词或URL地址换行到下一行 */
+    overflow: hidden;           /* 内容超出宽度时隐藏 */
+    text-overflow: ellipsis;    /* 内容超出宽度时显示省略号 */
+    max-width: 600px;
+}
+
+
+
+tr.selected {
+    background-color: #e0e0e0;
+    /* 设置背景颜色为浅灰色 */
+    color: #000;
+    /* 设置文字颜色为黑色 */
+    /* font-weight: bold; */
+    /* 设置文字加粗 */
+    /* outline: 2px solid #007bff; */
+    /* 添加蓝色边框以高亮显示 */
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requirements Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Requirements Table</h1>
+    <!-- 输入文件和新建需求按钮 -->
+    <input type="file" id="fileInput" accept=".json">
+    <button id="Button_AddNewRequirement">新建需求</button>
+    <button id="Button_SaveAllRequirements">保存需求</button>
+    <button id="Button_DeleteRequirements">删除选定需求</button>
+    <button id="Button_EditRequirement">编辑需求</button>
+    <table id="requirementsTable">
+        <thead>
+            <tr>
+                <th class="id_container">ID</th>
+                <th class="content_container">Content</th>
+                <th class="link_container">Base Requirements</th>
+                <th class="link_container">Referenced Requirements</th>
+                <th class="comments_container">Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+    <script src="HandleFile.js" defer></script>
+    <script src="LoadFile.js" defer></script>
+
+</body>
+
+</html>
